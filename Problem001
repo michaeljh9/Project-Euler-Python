@@ -1,0 +1,7 @@
+a = range(1,1000)
+sum = 0
+for element in a:
+    if (element % 3 == 0) or (element % 5 == 0):
+        sum += element
+        #print(sum)
+print(sum)
